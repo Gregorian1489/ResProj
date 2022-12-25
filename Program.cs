@@ -7,4 +7,13 @@ string [] array = line.Split(' ');
 string [] array1 = new string[8];
 int j = 0;
 
+for (int i = 0; i<array.Length; i++)
+{
+    if (array[i].Length <= 3)
+    {
+        array1[j] = array[i];
+        Console.Write(array1[j]+" ");
+    }
+    j++;
+}
 
