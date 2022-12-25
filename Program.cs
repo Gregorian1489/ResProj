@@ -4,7 +4,7 @@
 Console.WriteLine("Введите строковый массив через пробел");
 string line = Console.ReadLine();
 string [] array = line.Split(' ');
-string [] array1 = new string[8];
+string [] array1 = new string[array.Length];
 int j = 0;
 
 for (int i = 0; i<array.Length; i++)
